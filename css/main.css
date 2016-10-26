@@ -2,12 +2,69 @@
  * Dit is de custom style sheet van jouw website
  *
  */
-
-body {
-	
-
+body
+{
+    background-image: url("../images/dmv.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+header
+{
+    background-color: black;
+    height: 165px;
+    width: 100%;
+}
+#wrapper
+{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+#logo
+{
+    height: 109px;
+    width: auto;
+    margin-left: 15px;
+}
+nav
+{
+    float: right;
+    margin-right: 10px;
+}
+nav> ul
+{
+    color: white;
+    margin-top: 125px;
+    
+}
+nav> ul> li
+{
+    list-style: none;
+    float: left;
+    padding: 5px;
+    font-size: 24px;
+}
+nav> ul> li> a
+{
+    color: white;
+    text-decoration: none;
+}
+nav> ul> li> a:hover
+{
+    background-color: white;
+    color: black;
 }
 
+#tagline
+{
+    position: absolute;
+    top: 110px;
+    left: 15px;
+    color: white;
+}
 .desc {
 
 	background-color: #fff;
@@ -18,11 +75,68 @@ body {
 	width: 200px;
 		
 }
+section
+{
+    margin-left: 15px;
+    width: 50%;
+    border: 1px solid;
+    color: white;
+    margin-top: 12px;
+    -webkit-box-shadow: 0px 0px 29px 6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 29px 6px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 29px 6px rgba(0,0,0,0.75);
+    border-color: black;
+    margin-bottom: 50px;
+}
+
 img
 {
     width: 275px;
 }
 footer
 {
-    background-color: cadetblue;
+    background-color: black;
+    height: 45px;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+}
+#search
+{
+    margin-top: 15px;
+    left: 15px;
+    bottom: 10px;
+    position: fixed;
+    color: grey;
+}
+#madeBy
+{
+    color: white;
+    float: right;
+    right: 15px;
+    bottom: 4px;
+    position: fixed;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    top: 165px;
+    bottom: 45px;
+    margin-bottom: 45px;
+    position: fixed;
+    opacity: 0.9;
+}
+a{
+    color: white;
+    text-decoration: underline;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td{
+    text-align: left;
+    padding: 8px;
 }

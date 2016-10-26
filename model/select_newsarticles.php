@@ -1,5 +1,6 @@
 <?php
 
-$result = $mysqli->query("SELECT * FROM newsarticles");
+$homeResult = $mysqli->query("SELECT * FROM newsarticles WHERE page = 'Home'");
 
-$result = convertResultToArray($result);
+$homeResult = convertResultToArray($homeResult);
+

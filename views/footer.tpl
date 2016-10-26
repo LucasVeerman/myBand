@@ -1,5 +1,7 @@
 <footer>
-    <p>Made by me for school</p>
+    <input type="search" id="search" placeholder="Zoeken">
+    <div id="madeBy"><p>Made by Lucas Veerman</p></div>
 </footer>
+</div>
 </body>
 </html>
