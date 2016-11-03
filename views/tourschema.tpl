@@ -12,9 +12,9 @@
 <section>
     <table>
   <tr>
-    <td><strong>DATE</strong></td>
-    <td><strong>VENUE</strong></td>
-    <td><strong>COUNTRY</strong></td>
+    <td><strong>DATUM</strong></td>
+    <td><strong>LOCATIE</strong></td>
+    <td><strong>LAND</strong></td>
   </tr>
    {foreach from=$schemaResult item=oneItem}
   <tr>

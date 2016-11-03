@@ -1,6 +1,6 @@
 <?php
 
-$biografieResult = $mysqli->query("SELECT * FROM newsarticles WHERE page = 'Biografie'");
+$biografieResult = $mysqli->query("SELECT * FROM biografie");
 
 $biografieResult = convertResultToArray($biografieResult);
 

@@ -15,4 +15,5 @@ define('DB_NAME','myBand');
 define('DB_USERNAME','root');
 define('DB_PASSWORD','');
 
+define('NR_ITEMS_PER_PAGE',4);
 ?>

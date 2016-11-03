@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2016-10-26 12:15:13
+<?php /* Smarty version Smarty-3.1.18, created on 2016-10-28 13:23:55
          compiled from "views\tourschema.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:1450580f69b96a7d80-34681539%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '9e43ac975bfa582ea4a930d01da08de46adcee31' => 
     array (
       0 => 'views\\tourschema.tpl',
-      1 => 1477476903,
+      1 => 1477653832,
       2 => 'file',
     ),
   ),
@@ -45,9 +45,9 @@ $_smarty_tpl->tpl_vars['oneItem']->_loop = true;
 <section>
     <table>
   <tr>
-    <td><strong>DATE</strong></td>
-    <td><strong>VENUE</strong></td>
-    <td><strong>COUNTRY</strong></td>
+    <td><strong>DATUM</strong></td>
+    <td><strong>LOCATIE</strong></td>
+    <td><strong>LAND</strong></td>
   </tr>
    <?php  $_smarty_tpl->tpl_vars['oneItem'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['oneItem']->_loop = false;
  $_from = $_smarty_tpl->tpl_vars['schemaResult']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
