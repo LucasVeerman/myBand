@@ -10,6 +10,7 @@
 -->
 
 <section>
+   <h2>TOURSCHEMA</h2>
     <table>
   <tr>
     <td><strong>DATUM</strong></td>
@@ -24,4 +25,5 @@
   </tr>
   {/foreach}
 </table>
+<br><br><br>
 </section>

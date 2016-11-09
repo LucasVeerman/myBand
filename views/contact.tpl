@@ -1,4 +1,5 @@
 <section>
+   <h2>CONTACT</h2>
     {foreach from=$contactResult item=oneItem}
     <h1>{$oneItem.Function}</h1>
     <h4>{$oneItem.Name}</h4>

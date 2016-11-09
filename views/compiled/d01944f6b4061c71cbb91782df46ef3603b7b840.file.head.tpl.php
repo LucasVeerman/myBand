@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2016-11-02 20:15:24
+<?php /* Smarty version Smarty-3.1.18, created on 2016-11-03 18:28:51
          compiled from "views\head.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:1711657e4f5509b6103-51375259%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'd01944f6b4061c71cbb91782df46ef3603b7b840' => 
     array (
       0 => 'views\\head.tpl',
-      1 => 1478114123,
+      1 => 1478194129,
       2 => 'file',
     ),
   ),
@@ -44,9 +44,31 @@ $_valid = $_smarty_tpl->decodeProperties(array (
             $("#menu-icon").on("click", function(){
             $("#menu-menu").slideToggle();
             $(this).toggleClass("active");
+            });   
             });
+            
+            
+            //checkt de breedte
+            $(document).load($(window).bind("resize", checkPosition));
 
-            });
+            function checkPosition()
+            {
+                if($(window).width() > 460)
+                {
+                    $('menuboven').remove('div id="menu-icon"></div>');
+                    $('menuboven').append('#menu-menu-container');
+//                    $("body").css("background", "url('../images/dmv.png')");
+                } else {
+                   $('menuboven').append('#menu-icon'); 
+                }
+            }
+            $("nav ul li").click(function ( e ) {
+                e.preventDefault();
+                $("nav ul li a.active").removeClass("active"); //Remove any "active" class  
+                $("a", this).addClass("active"); //Add "active" class to selected tab  
+
+                // $(activeTab).show(); //Fade in the active content  
+            }); 
         </script>
     </head>
     <body>

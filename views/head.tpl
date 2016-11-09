@@ -18,9 +18,31 @@
             $("#menu-icon").on("click", function(){
             $("#menu-menu").slideToggle();
             $(this).toggleClass("active");
+            });   
             });
+            
+            
+            //checkt de breedte
+            $(document).load($(window).bind("resize", checkPosition));
 
-            });
+            function checkPosition()
+            {
+                if($(window).width() > 460)
+                {
+                    $('menuboven').remove('div id="menu-icon"></div>');
+                    $('menuboven').append('#menu-menu-container');
+//                    $("body").css("background", "url('../images/dmv.png')");
+                } else {
+                   $('menuboven').append('#menu-icon'); 
+                }
+            }
+            $("nav ul li").click(function ( e ) {
+                e.preventDefault();
+                $("nav ul li a.active").removeClass("active"); //Remove any "active" class  
+                $("a", this).addClass("active"); //Add "active" class to selected tab  
+
+                // $(activeTab).show(); //Fade in the active content  
+            }); 
         </script>
     </head>
     <body>

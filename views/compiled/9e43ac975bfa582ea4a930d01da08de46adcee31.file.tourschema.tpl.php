@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2016-10-28 13:23:55
+<?php /* Smarty version Smarty-3.1.18, created on 2016-11-03 18:33:40
          compiled from "views\tourschema.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:1450580f69b96a7d80-34681539%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '9e43ac975bfa582ea4a930d01da08de46adcee31' => 
     array (
       0 => 'views\\tourschema.tpl',
-      1 => 1477653832,
+      1 => 1478194376,
       2 => 'file',
     ),
   ),
@@ -43,6 +43,7 @@ $_smarty_tpl->tpl_vars['oneItem']->_loop = true;
 -->
 
 <section>
+   <h2>TOURSCHEMA</h2>
     <table>
   <tr>
     <td><strong>DATUM</strong></td>
@@ -64,4 +65,5 @@ $_smarty_tpl->tpl_vars['oneItem']->_loop = true;
   </tr>
   <?php } ?>
 </table>
+<br><br><br>
 </section><?php }} ?>

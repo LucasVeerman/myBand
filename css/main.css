@@ -140,8 +140,7 @@ iframe
     hr{display: none}
     body
     {
-/*        background-image: url("../images/dmv.png");*/
-        background-color: greenyellow;
+        background-image: url("../images/dmv.png");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -237,7 +236,7 @@ iframe
         margin-bottom: 50px;
         font-size: 14px;
         background-color: black;
-        opacity: 0.7;
+        opacity: 0.9;
         min-height: 600px;
     }
     #images
@@ -254,7 +253,7 @@ iframe
         margin-bottom: 50px;
         font-size: 15px;
         background-color: black;
-        opacity: 0.7;
+        opacity: 0.9;
         min-height: 600px;
     }
     #mediaIMG{
@@ -358,8 +357,7 @@ iframe
     hr{display: none}
     body
     {
-/*        background-image: url("../images/dmv.png");*/
-        background-color: dodgerblue;
+        background-image: url("../images/dmv.png");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -450,7 +448,7 @@ iframe
         margin-bottom: 50px;
         font-size: 15px;
         background-color: black;
-        opacity: 0.7;
+        opacity: 0.9;
         min-height: 650px;
     }
     #images
@@ -467,7 +465,7 @@ iframe
         margin-bottom: 50px;
         font-size: 15px;
         background-color: black;
-        opacity: 0.7;
+        opacity: 0.9;
         min-height: 650px;
     }
     #mediaIMG{
@@ -648,7 +646,7 @@ iframe
         margin-bottom: 50px;
         font-size: 15px;
         background-color: black;
-        opacity: 0.7;
+        opacity: 0.9;
         min-height: 650px;
     }
      #images
@@ -665,7 +663,7 @@ iframe
         margin-bottom: 50px;
         font-size: 15px;
         background-color: black;
-        opacity: 0.7;
+        opacity: 0.9;
         min-height: 650px;
     }
     #mediaIMG{

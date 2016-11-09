@@ -56,6 +56,10 @@ switch($action){
         $templateParser->assign('contactResult',$contactResult);
         $templateParser->display('contact.tpl');
     break;
+    case 'admin';
+        include('model/admin.php');
+       
+    break;
 }
 $templateParser->display('footer.tpl');
 
